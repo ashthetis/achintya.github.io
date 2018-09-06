@@ -1,0 +1,58 @@
+
+
+h1{
+  
+    background: url(background5.jpeg) no-repeat center center fixed; 
+
+	font-weight: 100;
+	letter-spacing: 8px;
+	font-size: 40px;
+	text-align: center;
+
+
+
+
+}
+p{
+	text-align: center;
+	font-weight: 300;
+	letter-spacing: 1;
+	font-size: 20px;
+
+}
+
+
+
+h4{
+	padding-top: 30px;
+	text-decoration: underline;
+}
+
+.row {
+
+	font-size: 200px;
+	
+}
+
+.col-lg-12{
+	padding-top: 100px;
+}
+
+
+a {
+	text-align: center;
+	font-weight: 300;
+	letter-spacing: 1;
+	font-size: 20px;
+	
+
+}
+
+.pic {
+
+
+	height: 400px;
+	width: 300px;
+	padding: 10px;
+	margin: 0 auto;
+}

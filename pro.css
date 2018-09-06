@@ -1,0 +1,104 @@
+.col-md-12{
+ background: url(background5.jpeg)
+
+}
+
+
+h1 {
+
+	font-weight: 200;
+	letter-spacing: 5px;
+	font-size: 40px;
+	text-align: center;
+	color: black;
+
+
+
+}
+h6{
+
+
+}
+h5 {
+	text-align: center;
+	text-decoration: underline;
+	font-weight: 400;
+	letter-spacing: 0.5;
+	color: black;
+
+}
+p {
+	text-align: left;
+	font-weight: 200;
+	letter-spacing: 1;
+	color: black;
+
+
+}
+a {
+	font-weight: 200;
+	letter-spacing: 1;
+	text-align: center;
+	
+
+}
+
+
+.back {
+
+    position: relative;
+    display: inline-block;
+
+
+}
+
+
+
+
+.line {
+	width: 100%;
+	margin: 0 auto;
+	border-top: 1px solid black;
+	padding-bottom: 10px;
+}
+
+.project ul{
+
+margin: 0px;
+padding: 0px;
+list-style: none;
+
+}
+
+.project li{
+
+float: left;
+width: 200px;
+text-align: center;
+
+padding: 20px;
+
+}
+
+.col-md-6{
+	   text-align: center;
+	    padding-left: 50px;
+
+}
+.col-sm-3{
+	    text-align: center;
+	    padding-left: 50px;
+
+}
+
+
+
+.pic {
+
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+	padding: 10px;
+	margin: 0 auto;
+}
+

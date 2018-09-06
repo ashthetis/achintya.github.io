@@ -1,0 +1,136 @@
+
+<!-- saved from url=(0036)https://ashthetis.github.io/apillai/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Home</title>
+<link rel="stylesheet" type="text/css" href="./master.css">
+<link href="./font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+
+<!-- 
+<div class="dropdown">
+  <button  onclick="myFunction()" class="dropbtn">
+  +
+  
+</button>
+
+  <div id="myDropdown" class="dropdown-content">
+
+    <a href="resume.pdf" target="_blank">Resume</a>
+    <a href="project.html" target="_blank">Projects</a>
+   	<a href="contact.html" target="_blank">Contact</a>
+   	<a href=" " target="_blank">Certifications</a>
+
+  </div>
+</div> -->
+<script>
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
+
+</head>
+
+<body onload="startTime()">
+
+
+<ul>
+<li><a href="https://ashthetis.github.io/apillai/reco.html" target="_blank">Recommendations</a></li>
+  <li><a class="active" href="https://ashthetis.github.io/apillai/resumefinalstuff.pdf" target="_blank">Resume</a></li>
+  <li><a href="https://ashthetis.github.io/apillai/project.html" target="_blank">Projects</a></li>
+  <li><a href="https://ashthetis.github.io/apillai/cert.html" target="_blank">Certifications</a></li>
+  
+  <li style="float:right"><a href="https://ashthetis.github.io/apillai/contact.html" target="_blank">Contact</a></li>
+</ul>
+
+
+
+
+
+<div class="profile">
+	<img src="./profilepic2.jpg" class="profilepic">
+	<h1> Achintya Pillai </h1>
+	<h5> BS in Computer Science Engineering | Personal Webpage </h5><h5>
+	<div class="line"> 
+
+	</div>
+
+<p> -- Skills --</p>
+	<p> 
+		Java, Python, C, C++, SQL, XML, XQUERY, SPARQL
+	</p>
+	<div class="icon">
+		<a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+		
+		<a href="https://www.linkedin.com/in/achintya-pillai-48481988/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+
+		<a href="https://ashthetis.github.io/apillai/resumefinalstuff.pdf" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i></a>
+	</div>
+
+ 
+
+
+  <!-- 
+
+  <div class="google1">
+<script>
+  (function() {
+    var cx = '006841095441922062238:9bdu_0gjuo0';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<div class="google">
+<gcse:search></gcse:search>
+</div>
+
+  </div>
+
+  -->
+
+
+
+</h5></div>
+
+<script>
+	/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+
+</body></html>
